@@ -30,7 +30,7 @@ curve25519-dalek = "2"
 rand_chacha = "0.2"
 
 [features]
-default = ["std", "zeroize"]
+default = ["std"]
 nightly = []
 debug-transcript = ["hex"]
 std = ["rand_core/std", "byteorder/std"]
